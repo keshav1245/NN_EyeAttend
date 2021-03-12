@@ -13,8 +13,8 @@
 			$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';
 			$mail->SMTPAuth = true;
-			$mail->Username = 'zindagibachaodilse@gmail.com';//Change Email Id Here !
-			$mail->Password = 'keshav@tangri1234'; //Change password Here !
+			$mail->Username = '';//Change Email Id Here !
+			$mail->Password = ''; //Change password Here !
 			$mail->SMTPSecure = 'tls';
 			$mail->Port = 587;
 					 
