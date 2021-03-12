@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EyeAttend</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+
+    <string-array name="streams">
+        <item>Choose Branch</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

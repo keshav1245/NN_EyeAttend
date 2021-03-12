@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@drawable/profile_back"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/trans_white_rectangle"
+                    android:layout_margin="20dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ccetlogoblack"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prof_id"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:text="ID : CCETCSE543"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prof_name"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:text="Er. Keshav Tangri"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT : "
+                android:gravity="center_vertical"
+
+                android:textSize="15dp"
+                android:drawableLeft="@drawable/ic_info"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserratbold"
+                android:textStyle="bold"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/trans_white_rectangle"
+                    android:layout_margin="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_account_balance"
+                        android:text="Student Tester"
+                        android:textColor="@color/black"
+                        android:id="@+id/prof_designation"
+                        android:fontFamily="@font/montserratbold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/ic_work"
+                        android:textSize="20dp"
+                        android:id="@+id/prof_dept"
+                        android:gravity="center_vertical"
+                        android:text="Dept.: CSE"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SPECIALIZATION : "
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:drawableLeft="@drawable/ic_star"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserratbold"
+                android:textStyle="bold"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/trans_white_rectangle"
+                    android:layout_margin="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text="Fullstack Web and Android App Developer, Machine Learning , Deep learning , Computer Vision"
+
+                        android:id="@+id/prof_specialization"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTACT : "
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserratbold"
+                android:textStyle="bold"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/trans_white_rectangle"
+                    android:layout_margin="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text="co17333@ccet.ac.in"
+                        android:drawableLeft="@drawable/ic_email"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        android:id="@+id/prof_email"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:drawableLeft="@drawable/ic_call"
+                        android:text="7009957782"
+                        android:id="@+id/prof_contact"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserratbold"
+
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:layout_margin="20dp"
+                    android:weightSum="3"
+                    android:background="@drawable/trans_white_rectangle"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+
+                        >
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:textAlignment="center"
+                            android:src="@drawable/ic_logout"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/logout"
+                            android:id="@+id/logout"
+                            android:scaleType="fitCenter"
+                            android:layout_margin="2dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/gabriola"
+                            android:textStyle="bold"
+                            android:text="Logout"
+                            android:textColor="@color/redstd"
+                            />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+
+                        >
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_in"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/facebook"
+                            android:layout_margin="2dp"
+                            android:id="@+id/social"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Social Link"
+                            android:fontFamily="@font/gabriola"
+                            android:textColor="#3F51B5"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+
+                        >
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_desktop_mac"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/website"
+                            android:layout_margin="2dp"
+                            android:id="@+id/clgweb"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/gabriola"
+                            android:text="College Website"
+                            android:textColor="@color/headings"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
