@@ -7,7 +7,7 @@ The EyeAttendScripts consists of the php scripts for the database and app linkin
 
 The vectorised.py is the python code that takes in the image and modifies the MySQL database, import models and calculate result and return to app.
 
-The models can be downloaded from here : 
+The models can be downloaded from here : https://drive.google.com/drive/folders/14q-eHJ9neIVlcFrONloCObAaTdvtCmUt?usp=sharing
 
 Kindly download the models from drive and paste them in the EyeAttendScripts folder. 
 
