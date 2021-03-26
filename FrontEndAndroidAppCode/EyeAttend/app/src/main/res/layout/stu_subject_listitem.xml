@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="30dp"
+    android:paddingStart="30dp"
+    android:paddingBottom="20dp"
+    android:id="@+id/parentLayout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/subjects_back"
+        android:id="@+id/mainBoxLayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/textViewLL"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CS701"
+                android:id="@+id/sub_code"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/headings"
+                android:textSize="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIGITAL IMAGE PROCESSING"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/sub_name"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Er. Keshav Tangri"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/prof_name"
+                />
+        </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/update_back"
+                android:text="GET ATTENDANCE"
+                android:id="@+id/get_attendance"
+                android:textColor="@color/white"
+                />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
